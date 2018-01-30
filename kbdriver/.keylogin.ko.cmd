@@ -1,0 +1,1 @@
+cmd_/home/jacketus/kbdriver/keylogin.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/jacketus/kbdriver/keylogin.ko /home/jacketus/kbdriver/keylogin.o /home/jacketus/kbdriver/keylogin.mod.o ;  true

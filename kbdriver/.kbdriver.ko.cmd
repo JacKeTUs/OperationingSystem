@@ -1,0 +1,1 @@
+cmd_/home/jacketus/kbdriver/kbdriver.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/jacketus/kbdriver/kbdriver.ko /home/jacketus/kbdriver/kbdriver.o /home/jacketus/kbdriver/kbdriver.mod.o ;  true
